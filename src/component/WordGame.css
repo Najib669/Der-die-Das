@@ -1,0 +1,88 @@
+/* Reset some default styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: rgb(238, 238, 238);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;  color: #333;
+}
+
+/* Center the word game container */
+.word-game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+  cursor: pointer;
+}
+
+/* Word Game Title Styles */
+.word-game-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Word Container Styles */
+.word-container {
+  background-color: #fff;
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px #333;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  margin-bottom: 20px;
+}
+
+/* Word Styles */
+.word {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+/* Article Options Styles */
+.article-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-top: 20px;
+}
+
+.article-options button {
+  background-color: #333;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  margin-bottom: 10px;
+}
+
+.article-options button:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Game Completed Styles */
+.game-completed {
+  text-align: center;
+  cursor: pointer;
+  display: none;
+}
+
+.game-completed-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.score {
+  font-size: 18px;
+  margin-top: 10px;
+}
